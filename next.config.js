@@ -8,12 +8,6 @@ const nextConfig = {
   images: {
     domains: ['localhost'],
   },
-  // API routes configuration
-  api: {
-    bodyParser: {
-      sizeLimit: '1mb',
-    },
-  },
   // Webpack configuration for Payload
   webpack: (config) => {
     config.resolve.alias = {

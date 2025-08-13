@@ -1,35 +1,21 @@
-import { NextApiRequest, NextApiResponse } from 'next'
-import payload from 'payload'
+import { NextApiRequest, NextApiResponse } from "next";
 
-// Initialize Payload CMS
-let payloadInitialized = false
-
-const initPayload = async () => {
-  if (!payloadInitialized) {
-    await payload.init({
-      secret: process.env.PAYLOAD_SECRET || 'fallback-secret',
-      express: undefined,
-      onInit: () => {
-        console.log('Payload initialized for Vercel')
-      },
-    })
-    payloadInitialized = true
-  }
-}
-
-// This endpoint handles all Payload CMS API routes
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  await initPayload()
-  
-  // Handle the request through Payload's built-in API
-  return payload.authenticate(req, res)
+// Simple API handler for Payload CMS
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse,
+) {
+  res.status(200).json({ 
+    message: "Payload API endpoint", 
+    method: req.method,
+    path: req.url 
+  });
 }
 
 export const config = {
   api: {
     bodyParser: {
-      sizeLimit: '1mb',
+      sizeLimit: "1mb",
     },
-    externalResolver: true,
   },
-}
+};
