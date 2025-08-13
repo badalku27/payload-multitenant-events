@@ -1,3 +1,16 @@
+/**
+ * Payload CMS Multi-Tenant Plugin
+ * Enhanced and Modified by: Badal Kumar (@badalku27)
+ * Repository: https://github.com/badalku27/payload-multitenant-events
+ * 
+ * Copyright (c) 2025 Badal Kumar
+ * Custom implementation with enhanced access controls, validation fixes,
+ * and MongoDB Memory Server integration for multi-tenant event management.
+ * 
+ * This file contains core plugin logic with custom modifications for
+ * improved tenant isolation and resource management.
+ */
+
 import { TenancyOptions, validateOptions } from "./options";
 import { Plugin } from "payload/config";
 import {

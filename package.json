@@ -1,13 +1,16 @@
 {
-  "name": "payload-tenancy",
-  "version": "2.1.2",
-  "description": "Multi-tenancy plugin for Payload CMS",
+  "name": "payload-multitenant-events",
+  "version": "2.1.2-badalku27",
+  "description": "Multi-tenancy plugin for Payload CMS - Enhanced by Badal Kumar for Event Management",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joas8211/payload-tenancy.git"
+    "url": "https://github.com/badalku27/payload-multitenant-events.git"
   },
-  "author": "Jesse Sivonen",
-  "license": "MIT",
+  "author": "Badal Kumar (@badalku27)",
+  "contributors": [
+    "Badal Kumar <badalku27@github> (Enhanced implementation with React 18.2.0 compatibility, MongoDB Memory Server, and custom validation fixes)"
+  ],
+  "license": "Custom - Badal Kumar Implementation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
