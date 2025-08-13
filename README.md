@@ -36,25 +36,40 @@ npm run dev
 
 This project is **Vercel-ready** with Next.js integration:
 
-### **Framework Selection in Vercel:**
-- **Framework Preset**: `Next.js`
-- **Build Command**: `npm run build`
-- **Output Directory**: `.next`
-- **Install Command**: `npm install`
+### **Step-by-Step Deployment:**
 
-### **Required Environment Variables:**
-```
-PAYLOAD_SECRET=your-secret-key-here
-MONGODB_URI=your-mongodb-atlas-connection-string
-NODE_ENV=production
-```
+1. **Import Project in Vercel:**
+   - Go to [vercel.com](https://vercel.com)
+   - Click "New Project"
+   - Import from GitHub: `badalku27/payload-multitenant-events`
 
-### **Deploy Steps:**
-1. Push to GitHub repository
-2. Connect to Vercel
-3. Select **Next.js** framework
-4. Add environment variables
-5. Deploy! 🚀
+2. **Framework Detection:**
+   - Vercel will auto-detect **Next.js** ✅
+   - Build Command: `npm run build`
+   - Output Directory: `.next`
+
+3. **Add Environment Variables in Vercel Dashboard:**
+   ```
+   PAYLOAD_SECRET=your-secret-key-here-123456
+   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/payload
+   NODE_ENV=production
+   ```
+
+4. **MongoDB Atlas Setup (Required):**
+   - Create account at [MongoDB Atlas](https://cloud.mongodb.com)
+   - Create a cluster
+   - Get connection string
+   - Add to `MONGODB_URI` in Vercel
+
+5. **Deploy:**
+   - Click "Deploy" button
+   - Wait for build to complete ⏳
+   - Access your live site! 🚀
+
+### **Important Notes:**
+- ✅ Use MongoDB Atlas (not local MongoDB)
+- ✅ Generate a strong `PAYLOAD_SECRET` (32+ characters)
+- ✅ Environment variables are set in Vercel dashboard, not in code
 
 ## 📋 What You Get
 
