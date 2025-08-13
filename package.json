@@ -1,10 +1,10 @@
 {
-  "name": "payload-multitenant-events",
+  "name": "payload-tenancy-badalku27",
   "version": "2.1.2-badalku27",
   "description": "Multi-tenancy plugin for Payload CMS - Enhanced by Badal Kumar for Event Management",
   "repository": {
     "type": "git",
-    "url": "https://github.com/badalku27/payload-multitenant-events.git"
+    "url": "https://github.com/badalku27/payload-tenancy-badalku27.git"
   },
   "author": "Badal Kumar (@badalku27)",
   "contributors": [

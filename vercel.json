@@ -12,9 +12,5 @@
       "destination": "/api/admin/$1",
       "permanent": false
     }
-  ],
-  "env": {
-    "PAYLOAD_SECRET": "@payload_secret",
-    "MONGODB_URI": "@mongodb_uri"
-  }
+  ]
 }

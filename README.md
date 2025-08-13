@@ -20,14 +20,41 @@ A powerful multi-tenancy plugin for Payload CMS that enables multiple tenants to
 
 ```bash
 # Clone the repository
-git clone https://github.com/badalku27/payload-multitenant-events.git
+git clone https://github.com/badalku27/payload-tenancy-badalku27.git
 
 # Install dependencies
 npm install
 
-# Start development server
-npm run dev tests/scenarios/initial-setup
+# For local development (original setup)
+npm run payload
+
+# For Next.js development (Vercel ready)
+npm run dev
 ```
+
+## 🌐 Vercel Deployment
+
+This project is **Vercel-ready** with Next.js integration:
+
+### **Framework Selection in Vercel:**
+- **Framework Preset**: `Next.js`
+- **Build Command**: `npm run build`
+- **Output Directory**: `.next`
+- **Install Command**: `npm install`
+
+### **Required Environment Variables:**
+```
+PAYLOAD_SECRET=your-secret-key-here
+MONGODB_URI=your-mongodb-atlas-connection-string
+NODE_ENV=production
+```
+
+### **Deploy Steps:**
+1. Push to GitHub repository
+2. Connect to Vercel
+3. Select **Next.js** framework
+4. Add environment variables
+5. Deploy! 🚀
 
 ## 📋 What You Get
 
@@ -115,7 +142,7 @@ npm run build
 
 **Badal Kumar** - Full Stack Developer  
 🔗 **GitHub**: [@badalku27](https://github.com/badalku27)  
-🌐 **Repository**: [payload-multitenant-events](https://github.com/badalku27/payload-multitenant-events)
+🌐 **Repository**: [payload-tenancy-badalku27](https://github.com/badalku27/payload-tenancy-badalku27)
 
 > *"Building scalable multi-tenant solutions with modern web technologies"* - Badal Kumar
 
