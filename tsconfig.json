@@ -1,0 +1,10 @@
+{
+  "include": ["src/index.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "jsx": "react"
+  }
+}
