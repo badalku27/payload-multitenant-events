@@ -2,9 +2,16 @@
 
 > **Developer**: Badal Kumar ([@badalku27](https://github.com/badalku27))  
 > **Project**: Multi-tenancy plugin for Payload CMS with enhanced features  
-> **License**: Custom implementation by Badal Kumar - 2025
+> **License**: Custom implementation by Badal Kumar - 2025  
+> **🌐 Live Demo**: [payload-multitenant-events-7fd8.vercel.app](https://payload-multitenant-events-7fd8.vercel.app)
 
 A powerful multi-tenancy plugin for Payload CMS that enables multiple tenants to manage their own isolated data and events within a single application instance.
+
+## 🔗 Quick Access
+
+- **🌐 Live Demo**: [payload-multitenant-events-7fd8.vercel.app](https://payload-multitenant-events-7fd8.vercel.app)
+- **📖 Repository**: [GitHub](https://github.com/badalku27/payload-multitenant-events)
+- **👨‍💻 Developer**: [Badal Kumar (@badalku27)](https://github.com/badalku27)
 
 ## ✨ Key Features
 
@@ -65,6 +72,9 @@ This project is **Vercel-ready** with Next.js integration:
    - Click "Deploy" button
    - Wait for build to complete ⏳
    - Access your live site! 🚀
+
+### **🎉 Successful Deployment:**
+Your project is now live at: **[payload-multitenant-events-7fd8.vercel.app](https://payload-multitenant-events-7fd8.vercel.app)**
 
 ### **Important Notes:**
 - ✅ Use MongoDB Atlas (not local MongoDB)
@@ -157,7 +167,8 @@ npm run build
 
 **Badal Kumar** - Full Stack Developer  
 🔗 **GitHub**: [@badalku27](https://github.com/badalku27)  
-🌐 **Repository**: [payload-tenancy-badalku27](https://github.com/badalku27/payload-tenancy-badalku27)
+🌐 **Repository**: [payload-multitenant-events](https://github.com/badalku27/payload-multitenant-events)  
+🚀 **Live Demo**: [payload-multitenant-events-7fd8.vercel.app](https://payload-multitenant-events-7fd8.vercel.app)
 
 > *"Building scalable multi-tenant solutions with modern web technologies"* - Badal Kumar
 
