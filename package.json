@@ -14,13 +14,17 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch",
-    "lint": "eslint .",
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
-    "dev": "ts-node tests/dev.ts"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "payload": "ts-node tests/dev.ts",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
-  "peerDependencies": {
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "payload": "^2.11.1"
   },
   "devDependencies": {

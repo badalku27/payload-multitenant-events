@@ -1,0 +1,20 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "functions": {
+    "pages/api/**/*.js": {
+      "maxDuration": 30
+    }
+  },
+  "redirects": [
+    {
+      "source": "/admin/(.*)",
+      "destination": "/api/admin/$1",
+      "permanent": false
+    }
+  ],
+  "env": {
+    "PAYLOAD_SECRET": "@payload_secret",
+    "MONGODB_URI": "@mongodb_uri"
+  }
+}
