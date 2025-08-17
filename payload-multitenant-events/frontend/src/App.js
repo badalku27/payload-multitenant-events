@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { fetchWithAuth, TokenManager } from './utils/auth';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3005';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://your-backend-url.com';
 
 // Authentication hook
 const useAuth = () => {
