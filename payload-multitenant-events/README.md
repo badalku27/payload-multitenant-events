@@ -4,6 +4,8 @@
 
 A complete JWT-based authentication system with React frontend and Node.js/Express backend. Features secure token management, user profiles, role-based access control, and automatic token refresh.
 
+*Updated for Vercel deployment*
+
 ## 🚀 Features
 
 - **Secure JWT Authentication**: 15-minute access tokens with 7-day refresh tokens
