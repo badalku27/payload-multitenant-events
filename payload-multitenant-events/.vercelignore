@@ -1,23 +1,11 @@
-# Ignore Payload CMS files
-src/
-collections/
-hooks/
-seed/
-scripts/
-access/
-*.ts
-*.js
+# Ignore everything except what we need for frontend deployment
+*
 !frontend/
-!frontend/**/*
-
-# Ignore package files that might conflict
-package.json
-yarn.lock
-tsconfig.json
-nodemon.json
-
-# Ignore auth files
-auth-*.js
+frontend/node_modules/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
 jwt-*.js
 test-*.js
 debug-*.js
